@@ -4,8 +4,7 @@
 .site-footer {
   background-color: $siteFooter__BackgroundColor;
   border-top: 1px solid $siteFooter__BorderColor;
-  font-size: 16px;
-  font-size: 1.6rem;
+  font-size: rem( $siteFooter__FontSize );
   line-height: 1;
   padding: 60px 0;
   text-align: center;
