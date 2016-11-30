@@ -1316,6 +1316,17 @@ img.alignright,
   background-color: #333;
   color: #eee; }
 
+/* ## Entry Footer
+-----------------------------------------------------  */
+.entry-footer .entry-meta {
+  font-size: 1rem;
+  border-top: 1px solid #eee;
+  padding-top: 24px; }
+
+.entry-categories,
+.entry-tags {
+  display: block; }
+
 /* ## Comments
 --------------------------------------------- */
 .comment-respond,
