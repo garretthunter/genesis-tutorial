@@ -1,0 +1,29 @@
+//
+// Header Images
+//=====================
+
+.header-image {
+  .title-area {
+    margin: 0 auto;
+    max-width: rem( $headerImage__TitleAreaMaxWidth );
+    padding: 0;
+  }
+
+  .site-title > a {
+    background-position: center !important;
+    background-size: contain !important;
+    float: left;
+    min-height: rem( $headerImage__SiteTitleMinHeight );
+    width: 100%;
+  }
+
+  .site-description,
+  .site-title {
+    display: block;
+    text-indent: -9999px;
+  }
+
+  @media only screen and (max-width: 1023px) {
+    float: none;
+  }
+}

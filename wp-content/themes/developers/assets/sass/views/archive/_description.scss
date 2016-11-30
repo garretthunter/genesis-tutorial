@@ -1,0 +1,21 @@
+//
+// Archive Description
+//============================
+.archive-description {
+  background-color: $authorbox__BackgroundColor;
+  font-size: 18px;
+  font-size: 1.8rem;
+  margin-bottom: 40px;
+  padding: 60px;
+
+  @media only screen and (max-width: 860px) {
+    padding: 30px;
+    margin-bottom: 5%;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+

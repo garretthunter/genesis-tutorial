@@ -1,0 +1,31 @@
+/*!
+	Theme Name: Developers
+	Theme URI: https://www.blacktower.com/
+	Description: This is the tutorial created from KnowTheCode based on the Genesis Framework.
+	Author: Garrett Hunter
+	Author URI: https://www.blacktower.com/
+
+	Version: 1.0.0
+
+	Template: genesis
+
+	License: GPL-2.0+
+	License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+@import "bourbon/bourbon";
+@import "utilities/index";
+@import "base/index";
+@import "layouts/index";
+@import "common-classes/index";
+@import "components/avatar";
+@import "components/author-box/index";
+@import "components/widgets/index";
+@import "plugins/index";
+@import "components/accessibility/skip_links";
+@import "components/header/index";
+@import "components/navigation/index";
+@import "components/content/index";
+@import "components/comments/index";
+@import "components/sidebars/index";
+@import "components/footer/index";

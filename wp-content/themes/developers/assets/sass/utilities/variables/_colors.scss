@@ -1,0 +1,138 @@
+$white: #fff;
+$black: #000;
+
+$base__Color: #333;
+$base__DecorationColor: #c3251d;
+
+//
+// Link colors
+//========================
+$link__DefaultColor: $base__DecorationColor;
+$link__DefaultFocusColor: $base__Color;
+$link__DefaultHoverColor: $base__Color;
+
+$link__GenesisColor: $base__Color;
+$link__GenesisFocusColor: $base__DecorationColor;
+$link__GenesisHoverColor: $base__DecorationColor;
+$link__GenesisOutlineColor: #ccc;
+
+$link__EntryTitleLinkColor: $link__GenesisColor;
+$link__EntryContentButtonFocusColor: $white;
+
+$link__SiteTitleFocusColor: $base__Color;
+
+
+//
+// HR colors
+//===================
+$hr__BorderColor: #eee;
+
+//
+// Body colors
+//===============
+$body__BackgroundColor: #eee;
+$body__Color: $base__Color;
+
+//
+// TextArea colors
+//===================
+$textarea__BackgroundColor: $white;
+$textarea__BorderColor: #ddd;
+$textarea__Color: $base__Color;
+$textarea__FocusBorderColor: #999;
+
+//
+// Button colors
+//==================
+$button__Color: $white;
+$button__BackgroundColor: $base__Color;
+$button__FocusColor: $white;
+$button__FocusBackgroundColor: $base__DecorationColor;
+
+//
+// Navigation colors
+//=================================
+$navPrimary__BackgroundColor: $white;
+$navPrimary__LinkColor: $link__GenesisColor;
+$navSecondary__BackgroundColor: $white;
+$navSecondary__LinkColor: $link__GenesisColor;
+$navPrimary__BorderColor: #eee;
+$navPrimary__Color: $black;
+$navPrimary__BackgroundColor: $white;
+$navPrimary__FocusColor: $base__DecorationColor;
+$navPrimary__HoverColor: $black;
+
+$jsNavPrimary__Color: $black;
+$jsNavPrimary__BackgroundColor: $navPrimary__BackgroundColor;
+$jsNavPrimary__HoverColor: $navPrimary__HoverColor;
+$jsNavPrimary__FocusColor: $navPrimary__FocusColor;
+$submenu__BorderColor: #eee;
+$submenu__LinkBackgroundColor: $white;
+
+$breadcrumb__BackgroundColor: $white;
+$authorbox__BackgroundColor: $white;
+
+//
+// Menu Colors
+//========================
+$menu__ToggleColor: $base__Color;
+$menu__ToggleBackgroundColor: $white;
+$menu__ToggleBorderColor: #eee;
+$menu__ToggleFocusColor: $base__DecorationColor;
+$menu__ToggleFocusBackgroundColor: $white;
+
+$jsMenu__ToggleFocusColor: $menu__ToggleFocusColor;
+$jsMenu__ToggleFocusBackgroundColor: $menu__ToggleFocusBackgroundColor;
+
+//
+// Gallery Colors
+//=============================
+$gallery__ImageBorderColor: #eee;
+$gallery__LinkFocusColor: #999;
+
+//
+// Table Colors
+//===========================
+$table_BorderColor: #eee;
+
+//
+// Site Header Colors
+//=================================
+$siteHeader__BackgroundColor: $white;
+
+//
+// Entry Colors
+//=================================
+$entry__TitleColor: $base__Color;
+
+//
+// Footer Colors
+//==================
+$siteFooter__BackgroundColor: $white;
+$siteFooter__BorderColor: #eee;
+$footerWidgets__BackgroundColor: $white;
+
+//
+// Site Container colors
+//==================
+$siteContainer__InputColor: #777;
+$siteContainer__InputBackgroundColor: #eee;
+
+//
+// Widget colors
+//====================
+$widget__TitleColor: $entry__TitleColor;
+$widget__BackgroundColor: $white;
+$widget__SearchBackgroundColor: $widget__BackgroundColor;
+
+$widgetEnews__TitleColor: $white;
+$widgetEnews__BorderColor: $base__Color;
+$widgetEnews__InputFocusBorderColor: $base__Color;
+$widgetEnews__InputSubmitBackgroundColor: $base__DecorationColor;
+$widgetEnews__InputSubmitFocusBackgroundColor: $white;
+$widgetEnews__InputSubmitFocusColor: $base__Color;
+
+//
+// After Entry
+//======================
+$afterEntry__BackgroundColor: $authorbox__BackgroundColor;

@@ -1,0 +1,20 @@
+//
+// Author Box
+//================
+
+.author-box {
+  background-color: $authorbox__BackgroundColor;
+  font-size: rem( $authorbox__FontSize );
+  margin-bottom: 40px;
+  padding: 60px;
+
+  @media only screen and (max-width: 860px) {
+    padding: 30px;
+    margin-bottom: 5%;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+

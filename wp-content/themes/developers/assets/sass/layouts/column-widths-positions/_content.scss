@@ -1,0 +1,51 @@
+/* ### Content */
+
+.content {
+  float: right;
+  width: 880px;
+
+  .content-sidebar &,
+  .content-sidebar-sidebar &,
+  .sidebar-content-sidebar & {
+    float: left;
+  }
+
+  .content-sidebar-sidebar &,
+  .sidebar-content-sidebar &,
+  .sidebar-sidebar-content & {
+    width: 660px;
+  }
+
+  .full-width-content & {
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 1340px) {
+    width: 800px;
+
+    .sidebar-content-sidebar &,
+    .sidebar-sidebar-content &,
+    .content-sidebar-sidebar & {
+      width: 580px;
+    }
+  }
+
+  @media only screen and (max-width: 1200px) {
+    width: 620px;
+
+    .sidebar-content-sidebar &,
+    .sidebar-sidebar-content &,
+    .content-sidebar-sidebar & {
+      width: 400px;
+    }
+  }
+
+  @media only screen and (max-width: 1023px) {
+    &,
+    .content-sidebar-sidebar &,
+    .sidebar-content-sidebar &,
+    .sidebar-sidebar-content & {
+      width: 100%;
+    }
+  }
+}

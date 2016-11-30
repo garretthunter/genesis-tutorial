@@ -1,0 +1,17 @@
+/* ## Widget Area
+--------------------------------------------- */
+
+.site-header .widget-area {
+  float: right;
+  text-align: right;
+  width: $siteHeader__WidgetAreaWidth;
+
+  @media only screen and (max-width: 1200px) {
+    width: $mediaScreen3__SiteHeaderWidgetAreaWidth;
+  }
+
+  @media only screen and (max-width: 1023px) {
+    width: $mediaScreen2__SiteHeaderWidgetAreaWidth;
+    text-align: center;
+  }
+}

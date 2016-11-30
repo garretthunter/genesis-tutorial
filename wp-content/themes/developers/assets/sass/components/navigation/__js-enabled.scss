@@ -1,0 +1,86 @@
+//
+// .js enabled styles
+//=============================
+
+@media only screen and (max-width: 1023px) {
+
+  .js .genesis-nav-menu .sub-menu a,
+  .js .genesis-nav-menu .sub-menu {
+    width: 100%;
+  }
+
+  .js nav.nav-primary,
+  .js .site-header nav  {
+    display: none;
+    position: relative;
+  }
+
+  .js .site-header nav .wrap {
+    padding: 0;
+  }
+
+  .js nav.pagination {
+    display: block;
+  }
+
+  .js .nav-primary .genesis-nav-menu .menu-item,
+  .js .site-header .genesis-nav-menu .menu-item {
+    display: block;
+    float: none;
+    margin: 1px 0;
+    position: relative;
+    text-align: left;
+  }
+
+  .js .genesis-nav-menu .menu-item:hover {
+    position: relative;
+  }
+
+  .js .nav-primary .genesis-nav-menu .menu-item a,
+  .js .site-header .genesis-nav-menu .menu-item a {
+    border: none;
+    padding: 12px 0;
+    width: 100%;
+  }
+
+  .js .genesis-nav-menu .sub-menu {
+    border: none;
+  }
+
+  .js .genesis-nav-menu .menu-item > a:focus ul.sub-menu,
+  .js .genesis-nav-menu .menu-item > a:focus ul.sub-menu .sub-menu {
+    left: 0;
+    margin-left: 0;
+  }
+
+  .js .genesis-nav-menu > .menu-item-has-children > a:after {
+    content: none;
+  }
+
+  .js .genesis-nav-menu .sub-menu {
+    clear: both;
+    display: none;
+    margin: 0;
+    opacity: 1;
+    padding-left: 15px;
+    position: static;
+    width: 100%;
+  }
+
+  .js .genesis-nav-menu .sub-menu .sub-menu {
+    margin: 0;
+  }
+
+  .js nav button:hover,
+  .js .menu-toggle:hover,
+  .js .nav-primary {
+    background-color: $jsNavPrimary__BackgroundColor;
+    color: $jsNavPrimary__Color;
+  }
+
+  .js nav button:focus,
+  .js .menu-toggle:focus {
+    background-color: $jsMenu__ToggleFocusBackgroundColor;
+    color: $jsMenu__ToggleFocusColor;
+  }
+}
