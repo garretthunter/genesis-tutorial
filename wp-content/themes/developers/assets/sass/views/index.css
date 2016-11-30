@@ -1,15 +1,15 @@
 /*
 Error: Undefined variable: "$authorbox__BackgroundColor".
-        on line 5 of archive/_description.scss
-        from line 2 of archive/index.scss
+        on line 6 of archive/_description.scss
+        from line 3 of archive/index.scss
         from line 2 of index.scss
 
 1: 
 2: @import "archive/index";
 
 Backtrace:
-archive/_description.scss:5
-archive/index.scss:2
+archive/_description.scss:6
+archive/index.scss:3
 index.scss:2
 g:/opt/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
 g:/opt/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
@@ -88,4 +88,4 @@ g:/opt/Ruby23/bin/scss:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$authorbox__BackgroundColor\".\A         on line 5 of archive/_description.scss\A         from line 2 of archive/index.scss\A         from line 2 of index.scss\A \A 1: \A 2: @import \"archive/index\";"; }
+  content: "Error: Undefined variable: \"$authorbox__BackgroundColor\".\A         on line 6 of archive/_description.scss\A         from line 3 of archive/index.scss\A         from line 2 of index.scss\A \A 1: \A 2: @import \"archive/index\";"; }
