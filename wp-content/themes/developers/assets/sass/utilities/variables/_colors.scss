@@ -104,6 +104,12 @@ $table_BorderColor: #eee;
 $siteHeader__BackgroundColor: $white;
 
 //
+// Comment Colors
+//=================================
+
+$commentRespond__BackgroundColor: $white;
+
+//
 // Entry Content Colors
 //=================================
 $entry__TitleColor: $base__Color;
@@ -114,7 +120,7 @@ $entryContent__FontColor: #eee;
 
 $entryFooter__BorderColor: #eee;
 
-$entryPings__BackgroundColor: $white;
+$entryPings__BackgroundColor: $commentRespond__BackgroundColor;
 
 $afterEntry__BackgroundColor: $authorbox__BackgroundColor;
 

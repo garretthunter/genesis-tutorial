@@ -1,0 +1,20 @@
+//
+// Comment Entry Pings
+//===========================
+
+.entry-pings {
+  padding: 60px 60px 32px;
+  background-color: $entryPings__BackgroundColor;
+  font-size: rem( $entryPings__FontSize );
+  margin-bottom: 40px;
+
+  .reply {
+    display: none;
+  }
+
+  @media only screen and (max-width: 860px) {
+    padding: 30px;
+    margin-bottom: 5%;
+  }
+
+}

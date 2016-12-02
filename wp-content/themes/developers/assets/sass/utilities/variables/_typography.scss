@@ -7,11 +7,18 @@ $primaryNav__FontSize: 14;
 $submenu__FontSize: 14;
 
 //
+// Comments
+//======================
+$commentRespond__FontSize: 16;
+
+//
 // Entry Content
 //==================
 $entryMeta__HeaderFontSize: 16;
 $entryMeta__FooterFontSize: $entryMeta__HeaderFontSize;
 $entryTitle__FontSize: 36;
+$entryPings__FontSize: $commentRespond__FontSize;
+
 //
 // Header
 //=====================

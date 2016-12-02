@@ -1,0 +1,26 @@
+//
+// Comment Respond
+//======================
+
+.comment-respond {
+  padding: 60px 60px 32px;
+  background-color: $commentRespond__BackgroundColor;
+  font-size: rem( $commentRespond__FontSize );
+  margin-bottom: 40px;
+
+  input[type="email"],
+  input[type="text"],
+  input[type="url"] {
+    width: 50%;
+  }
+
+  label {
+    display: block;
+    margin-right: 12px;
+  }
+  @media only screen and (max-width: 860px) {
+    padding: 30px;
+    margin-bottom: 5%;
+  }
+
+}
