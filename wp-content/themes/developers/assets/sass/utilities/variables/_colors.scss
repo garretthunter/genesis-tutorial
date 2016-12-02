@@ -147,9 +147,13 @@ $widget__TitleColor: $entry__TitleColor;
 $widget__BackgroundColor: $white;
 $widget__SearchBackgroundColor: $widget__BackgroundColor;
 
+$widgetEnews__Color: $white;
 $widgetEnews__TitleColor: $white;
+$widgetEnews__BackgroundColor: $base__Color;
 $widgetEnews__BorderColor: $base__Color;
-$widgetEnews__InputFocusBorderColor: $base__Color;
-$widgetEnews__InputSubmitBackgroundColor: $base__DecorationColor;
-$widgetEnews__InputSubmitFocusBackgroundColor: $white;
-$widgetEnews__InputSubmitFocusColor: $base__Color;
+
+$widgetEnews__Input__BorderColor: $base__Color;
+$widgetEnews__SubmitButton__Color: $white;
+$widgetEnews__SubmitButton__BackgroundColor: $base__DecorationColor;
+$widgetEnews__SubmitButton__FocusBackgroundColor: $white;
+$widgetEnews__SubmitButton__FocusColor: $base__Color;
