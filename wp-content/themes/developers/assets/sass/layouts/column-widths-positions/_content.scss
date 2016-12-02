@@ -20,32 +20,32 @@
     width: 100%;
   }
 
-  @media only screen and (max-width: 1340px) {
-    width: 800px;
+  @media only screen and (max-width: $larger-screen) {
+    width: $larger-screen-content-width;
 
     .sidebar-content-sidebar &,
     .sidebar-sidebar-content &,
     .content-sidebar-sidebar & {
-      width: 580px;
+      width: $larger-screen-content-sidebar-width;
     }
   }
 
-  @media only screen and (max-width: 1200px) {
-    width: 620px;
+  @media only screen and (max-width: $large-screen) {
+    width: $large-screen-content-width;
 
     .sidebar-content-sidebar &,
     .sidebar-sidebar-content &,
     .content-sidebar-sidebar & {
-      width: 400px;
+      width: $large-screen-content-sidebar-width;
     }
   }
 
-  @media only screen and (max-width: 1023px) {
+  @media only screen and (max-width: $medium-screen) {
     &,
     .content-sidebar-sidebar &,
     .sidebar-content-sidebar &,
     .sidebar-sidebar-content & {
-      width: 100%;
+      width: $medium-screen-content-width;
     }
   }
 }

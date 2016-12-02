@@ -2,19 +2,19 @@
 
 .sidebar-primary {
   float: right;
-  width: 360px;
+  width: $sidebar-width;
 
   .sidebar-content &,
   .sidebar-sidebar-content & {
     float: left;
   }
 
-  @media only screen and (max-width: 1340px) {
-    width: 300px;
+  @media only screen and (max-width: $larger-screen) {
+    width: $larger-screen-sidebar-primary-width;
   }
 
-  @media only screen and (max-width: 1023px) {
-    width: 100%;
+  @media only screen and (max-width: $medium-screen) {
+    width: $medium-screen-sidebar-primary-width;
   }
 }
 

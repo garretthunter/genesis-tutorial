@@ -4,7 +4,7 @@
   .content-sidebar-sidebar &,
   .sidebar-content-sidebar &,
   .sidebar-sidebar-content & {
-    width: 1060px;
+    width: $content-sidebar-wrap-width;
   }
 
   .content-sidebar-sidebar & {
@@ -16,27 +16,27 @@
     float: right;
   }
 
-  @media only screen and (max-width: 1340px) {
+  @media only screen and (max-width: $larger-screen) {
     .content-sidebar-sidebar &,
     .sidebar-content-sidebar &,
     .sidebar-sidebar-content & {
-      width: 920px;
+      width: $larger-screen-content-sidebar-wrap;
     }
   }
 
-  @media only screen and (max-width: 1200px) {
+  @media only screen and (max-width: $large-screen) {
     .content-sidebar-sidebar &,
     .sidebar-content-sidebar &,
     .sidebar-sidebar-content & {
-      width: 740px;
+      width: $large-screen-content-sidebar-wrap;
     }
   }
 
-  @media only screen and (max-width: 1023px) {
+  @media only screen and (max-width: $medium-screen) {
     .sidebar-content-sidebar &,
     .sidebar-sidebar-content &,
     .content-sidebar-sidebar & {
-      width: 100%;
+      width: $medium-screen-content-sidebar-wrap;
     }
   }
 }

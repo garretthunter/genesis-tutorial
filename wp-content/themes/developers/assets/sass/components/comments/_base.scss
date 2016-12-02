@@ -5,7 +5,7 @@
 .entry-comments {
   padding: 60px;
 
-  @media only screen and (max-width: 860px) {
+  @media only screen and (max-width: $small-screen) {
     padding: 30px;
     margin-bottom: 5%;
   }

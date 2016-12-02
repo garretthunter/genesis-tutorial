@@ -7,8 +7,8 @@
   padding: 10px 0;
   width: $titleArea__Width;
 
-  @media only screen and (max-width: 1023px) {
-    width: 100%;
+  @media only screen and (max-width: $medium-screen) {
+    width: $medium-screen-title-area-width;
   }
 
   .header-full-width & {

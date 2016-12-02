@@ -5,7 +5,7 @@
   clear: both;
   margin: 40px 0;
 
-  @media only screen and (max-width: 860px) {
+  @media only screen and (max-width: $small-screen) {
     margin: 5% auto;
   }
 }
@@ -20,12 +20,11 @@
   }
 
   a {
-    background-color: #fff;
-    color: #333;
+    background-color: $link-archive-pagination-background-color;
+    color: $link-archive-pagination-color;
     cursor: pointer;
     display: inline-block;
-    font-size: 16px;
-    font-size: 1.6rem;
+    font-size: rem( 16 );
     font-weight: 600;
     padding: 8px 12px;
     text-decoration: none;
@@ -34,11 +33,11 @@
   a:hover,
   a:focus,
   .active a {
-    background-color: #c3251d;
-    color: #fff;
+    background-color: $link-archive-pagination-active-background-color;
+    color: $link-archive-pagination-active-color;
   }
 
-  @media only screen and (max-width: 860px) {
+  @media only screen and (max-width: $small-screen) {
     li a {
       margin-bottom: 4px;
     }

@@ -16,9 +16,9 @@
   float: left;
   margin-left: 2.564102564102564%;
 
-  @media only screen and (max-width: 860px) {
+  @media only screen and (max-width: $small-screen) {
     margin: 0;
-    width: 100%;
+    width: $max-width-small-screen;
   }
 }
 

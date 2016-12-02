@@ -17,6 +17,7 @@ $max-width: rem( 1280 );
 $max-width-larger-screen: rem( 1140 );
 $max-width-large-screen: rem( 960 );
 $max-width-medium-screen: rem( 800 );
+$max-width-small-screen: 100%;
 
 $medium-screen-footer-widgets-width: 100%;
 $large-screen-footer-widgets-width: rem( 300 );
@@ -25,9 +26,28 @@ $larger-screen-footer-widgets-width: rem( 340 );
 $medium-screen-site-header-widget-area-width: 100%;
 $large-screen-site-header-widget-area-width: rem( 620 );
 
-$medium-screen-sidebar-secondary-width: 100%;
+$medium-screen-title-area-width: 100%;
+
+$medium-screen-sidebar-primary-width: 100%;
+$larger-screen-sidebar-primary-width: rem( 300 );
+
+$medium-screen-sidebar-secondary-width: $medium-screen-sidebar-primary-width;
+
+$medium-screen-content-sidebar-wrap: 100%;
+$large-screen-content-sidebar-wrap: rem( 740 );
+$larger-screen-content-sidebar-wrap: rem( 920 );
+
+$larger-screen-content-width: rem( 800 );
+$large-screen-content-width: rem( 620 );
+$medium-screen-content-width: 100%;
+
+$larger-screen-content-sidebar-width: rem( 580 );
+$large-screen-content-sidebar-width: rem( 400 );
+
 
 //
-// Secondary Sidebar
+// Sidebar
 //===========================
 $sidebar-secondary-width: rem( 180 );
+$sidebar-width: rem( 360 );
+$content-sidebar-wrap-width: rem( 1060 );

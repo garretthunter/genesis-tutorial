@@ -9,7 +9,7 @@
   line-height: 1;
   width: 100%;
 
-  @media only screen and (max-width: 1023px) {
+  @media only screen and (max-width: $medium-screen) {
     text-align: center;
     li {
       float: none;
@@ -52,7 +52,7 @@
       background-color: $submenu__LinkBackgroundColor;
       border: 1px solid $submenu__BorderColor;
       border-top: 0;
-      font-size: rm( $submenu__FontSize );
+      font-size: rem( $submenu__FontSize );
       padding: 20px;
       position: relative;
       width: 200px;
@@ -84,7 +84,7 @@
   > .right {
     float: right;
   }
-  @media only screen and (max-width: 1023px) {
+  @media only screen and (max-width: $medium-screen) {
     text-align: center;
 
     li {
