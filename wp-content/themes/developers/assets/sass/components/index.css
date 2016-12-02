@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$breadcrumb__BackgroundColor".
-        on line 6 of _breadcrumb.scss
+        on line 5 of navigation/_breadcrumb.scss
         from line 6 of index.scss
 
 1: //
@@ -8,15 +8,14 @@ Error: Undefined variable: "$breadcrumb__BackgroundColor".
 3: //====================================
 4: 
 5: @import "avatar";
-6: @import "breadcrumb";
+6: @import "navigation/_breadcrumb";
 7: @import "buttons";
 8: @import "accessibility/index";
 9: @import "author-box/index";
 10: @import "comments/index";
-11: @import "content/index";
 
 Backtrace:
-_breadcrumb.scss:6
+navigation/_breadcrumb.scss:5
 index.scss:6
 g:/opt/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
 g:/opt/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
@@ -82,4 +81,4 @@ g:/opt/Ruby23/bin/scss:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$breadcrumb__BackgroundColor\".\A         on line 6 of _breadcrumb.scss\A         from line 6 of index.scss\A \A 1: //\A 2: // Component Modules\A 3: //====================================\A 4: \A 5: @import \"avatar\";\A 6: @import \"breadcrumb\";\A 7: @import \"buttons\";\A 8: @import \"accessibility/index\";\A 9: @import \"author-box/index\";\A 10: @import \"comments/index\";\A 11: @import \"content/index\";"; }
+  content: "Error: Undefined variable: \"$breadcrumb__BackgroundColor\".\A         on line 5 of navigation/_breadcrumb.scss\A         from line 6 of index.scss\A \A 1: //\A 2: // Component Modules\A 3: //====================================\A 4: \A 5: @import \"avatar\";\A 6: @import \"navigation/_breadcrumb\";\A 7: @import \"buttons\";\A 8: @import \"accessibility/index\";\A 9: @import \"author-box/index\";\A 10: @import \"comments/index\";"; }
