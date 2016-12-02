@@ -13,24 +13,24 @@
 .footer-widgets-3 {
   width: $footerWidgets__Width;
 
-  @media only screen and (max-width: $mediaScreen4__MaxWidth) {
-    width: $mediaScreen4__FooterWidgetsWidth;
+  @media only screen and (max-width: $larger-screen) {
+    width: $larger-screen-footer-widgets-width;
   }
-  @media only screen and (max-width: $mediaScreen3__MaxWidth) {
-    width: $mediaScreen3__FooterWidgetsWidth;
+  @media only screen and (max-width: $large-screen) {
+    width: $large-screen-footer-widgets-width;
   }
-  @media only screen and (max-width: $mediaScreen2__MaxWidth) {
-    width: $mediaScreen2__FooterWidgetsWidth;
+  @media only screen and (max-width: $medium-screen) {
+    width: $medium-screen-footer-widgets-width;
   }
 }
 
 .footer-widgets-1 {
   margin-right: 70px;
 
-  @media only screen and (max-width: $mediaScreen4__MaxWidth) {
+  @media only screen and (max-width: $larger-screen) {
       margin-right: 60px;
   }
-  @media only screen and (max-width: $mediaScreen3__MaxWidth) {
+  @media only screen and (max-width: $large-screen) {
     margin-right: 30px;
   }
 }
@@ -39,7 +39,7 @@
 .footer-widgets-2 {
   float: left;
 
-  @media only screen and (max-width: $mediaScreen2__MaxWidth) {
+  @media only screen and (max-width: $medium-screen) {
     margin: 0 auto 40px;
   }
 }

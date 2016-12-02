@@ -11,22 +11,23 @@ $headerImage__SiteTitleMinHeight: 80px;
 // Footer Module
 $footerWidgets__Width: 380px;
 
+// Max widths
+//------------------------------------------------------------------------------
+$max-width: rem( 1280 );
+$max-width-larger-screen: rem( 1140 );
+$max-width-large-screen: rem( 960 );
+$max-width-medium-screen: rem( 800 );
+
+$medium-screen-footer-widgets-width: 100%;
+$large-screen-footer-widgets-width: rem( 300 );
+$larger-screen-footer-widgets-width: rem( 340 );
+
+$medium-screen-site-header-widget-area-width: 100%;
+$large-screen-site-header-widget-area-width: rem( 620 );
+
+$medium-screen-sidebar-secondary-width: 100%;
+
 //
-// Media sizes
-//========================
-$mediaScreen1__MaxWidth: 860px;
-
-$mediaScreen2__MaxWidth: 1023px;
-$mediaScreen2__SiteHeaderWidgetAreaWidth: 100%;
-$mediaScreen2__FooterWidgetsWidth: 100%;
-
-$mediaScreen3__MaxWidth: 1200px;
-$mediaScreen3__SiteHeaderWidgetAreaWidth: 620px;
-$mediaScreen3__FooterWidgetsWidth: 300px;
-
-$mediaScreen4__MaxWidth: 1340px;
-$mediaScreen4__WrapMaxWidth: 1140px;
-$mediaScreen4__ContentSidebarWidth: 920px;
-$mediaScreen4__SiteHeaderWidgetArea: 800px;
-$mediaScreen4__FooterWidgetsWidth: 340px;
-
+// Secondary Sidebar
+//===========================
+$sidebar-secondary-width: rem( 180 );

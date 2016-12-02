@@ -6,12 +6,12 @@
   text-align: right;
   width: $siteHeader__WidgetAreaWidth;
 
-  @media only screen and (max-width: 1200px) {
-    width: $mediaScreen3__SiteHeaderWidgetAreaWidth;
+  @media only screen and (max-width: $large-screen) {
+    width: $large-screen-site-header-widget-area-width;
   }
 
-  @media only screen and (max-width: 1023px) {
-    width: $mediaScreen2__SiteHeaderWidgetAreaWidth;
+  @media only screen and (max-width: $medium-screen) {
+    width: $medium-screen-site-header-widget-area-width;
     text-align: center;
   }
 }
