@@ -5,7 +5,7 @@
   clear: both;
   margin: 40px 0;
 
-  @media only screen and (max-width: $small-screen) {
+  @media only screen and (max-width: $SMALL_SCREEN) {
     margin: 5% auto;
   }
 }
@@ -37,7 +37,7 @@
     color: $link-archive-pagination-active-color;
   }
 
-  @media only screen and (max-width: $small-screen) {
+  @media only screen and (max-width: $SMALL_SCREEN) {
     li a {
       margin-bottom: 4px;
     }

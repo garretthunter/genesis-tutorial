@@ -13,41 +13,48 @@ $footerWidgets__Width: 380px;
 
 // Max widths
 //------------------------------------------------------------------------------
-$max-width: rem( 1280 );
-$max-width-larger-screen: rem( 1140 );
-$max-width-large-screen: rem( 960 );
-$max-width-medium-screen: rem( 800 );
-$max-width-small-screen: 100%;
+$max-width: rem( 1280 ); // Upper limit on page width
 
-$medium-screen-footer-widgets-width: 100%;
-$large-screen-footer-widgets-width: rem( 300 );
+//
+// Max viewable area
+//========================
+$larger-screen-max-width: rem( 1140 ); // .890625
+$larger-screen-content-width: rem( 800 );
+$larger-screen-content-sidebar-width: rem( 580 );
+$larger-screen-content-sidebar-wrap: rem( 920 );
 $larger-screen-footer-widgets-width: rem( 340 );
 
-$medium-screen-site-header-widget-area-width: 100%;
+$large-screen-max-width: rem( 960 ); // .75
+$large-screen-content-width: rem( 620 );
+$large-screen-content-sidebar-width: rem( 400 );
+$large-screen-content-sidebar-wrap: rem( 740 );
+$large-screen-footer-widgets-width: rem( 300 );
 $large-screen-site-header-widget-area-width: rem( 620 );
 
+$medium-screen-max-width: rem( 800 ); //.625
+$medium-screen-footer-widgets-width: 100%;
+$medium-screen-site-header-widget-area-width: 100%;
 $medium-screen-title-area-width: 100%;
-
-$medium-screen-sidebar-primary-width: 100%;
-$larger-screen-sidebar-primary-width: rem( 300 );
-
-$medium-screen-sidebar-secondary-width: $medium-screen-sidebar-primary-width;
-
 $medium-screen-content-sidebar-wrap: 100%;
-$large-screen-content-sidebar-wrap: rem( 740 );
-$larger-screen-content-sidebar-wrap: rem( 920 );
-
-$larger-screen-content-width: rem( 800 );
-$large-screen-content-width: rem( 620 );
 $medium-screen-content-width: 100%;
 
-$larger-screen-content-sidebar-width: rem( 580 );
-$large-screen-content-sidebar-width: rem( 400 );
-
+$small-screen-max-width: 100%;
 
 //
 // Sidebar
 //===========================
 $sidebar-secondary-width: rem( 180 );
 $sidebar-width: rem( 360 );
+
+$sidebar-primary-width-medium-screen: 100%;
+$sidebar-primary-width-larger-screen: rem( 300 );
+
+$sidebar-secondary-width-medium-screen: $sidebar-primary-width-medium-screen;
+
+//
+// Content
+//============================
 $content-sidebar-wrap-width: rem( 1060 );
+$content-width: rem( 880 );
+$content-sidebar-sidebar: rem( 660 );
+$content-full-width: 100%;

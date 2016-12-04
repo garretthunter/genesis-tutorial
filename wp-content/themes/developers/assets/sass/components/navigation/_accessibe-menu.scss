@@ -18,7 +18,7 @@
   display: none;
   visibility: hidden;
 
-  @media only screen and (max-width: $medium-screen) {
+  @media only screen and (max-width: $MEDIUM_SCREEN) {
     border-width: 0;
     background-color: $menu__ToggleBackgroundColor;
     color: $menu__ToggleColor;
@@ -30,7 +30,7 @@
   }
 }
 
-@media only screen and (max-width: $medium-screen) {
+@media only screen and (max-width: $MEDIUM_SCREEN) {
 
   .sub-menu-toggle:hover,
   .sub-menu-toggle:focus {

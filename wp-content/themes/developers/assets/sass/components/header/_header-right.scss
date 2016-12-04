@@ -6,11 +6,11 @@
   text-align: right;
   width: $siteHeader__WidgetAreaWidth;
 
-  @media only screen and (max-width: $large-screen) {
+  @media only screen and (max-width: $LARGE_SCREEN) {
     width: $large-screen-site-header-widget-area-width;
   }
 
-  @media only screen and (max-width: $medium-screen) {
+  @media only screen and (max-width: $MEDIUM_SCREEN) {
     width: $medium-screen-site-header-widget-area-width;
     text-align: center;
   }

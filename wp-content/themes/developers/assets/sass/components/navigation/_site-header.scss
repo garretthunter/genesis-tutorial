@@ -6,7 +6,7 @@
     margin-left: 0;
   }
 
-  @media only screen and (max-width: $medium-screen) {
+  @media only screen and (max-width: $MEDIUM_SCREEN) {
     ul.genesis-nav-menu {
       float: none;
     }

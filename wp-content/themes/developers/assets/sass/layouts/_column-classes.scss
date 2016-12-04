@@ -2,58 +2,71 @@
 --------------------------------------------- */
 /* Link: http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css */
 
-.five-sixths,
-.four-sixths,
+$grid-columns: 12 !default;
+
 .one-fourth,
+.two-fourths,
+.three-fourths,
 .one-half,
 .one-sixth,
-.one-third,
-.three-fourths,
-.three-sixths,
-.two-fourths,
 .two-sixths,
+.three-sixths,
+.four-sixths,
+.five-sixths,
+.one-third,
 .two-thirds {
   float: left;
   margin-left: 2.564102564102564%;
 
-  @media only screen and (max-width: $small-screen) {
-    margin: 0;
-    width: $max-width-small-screen;
+  @media only screen and (max-width: $SMALL_SCREEN) {
+      margin: 0;
+      width: 100%;
   }
 }
 
 .one-half,
 .three-sixths,
 .two-fourths {
-  width: 48.717948717948715%;
+//  width: 48.717948717948715%;
+  @include span-columns(6);
 }
 
 .one-third,
 .two-sixths {
-  width: 31.623931623931625%;
+//  width: 31.623931623931625%;
+  @include span-columns(4);
 }
 
 .four-sixths,
 .two-thirds {
-  width: 65.81196581196582%;
+//  width: 65.81196581196582%;
+  @include span-columns(8);
 }
 
 .one-fourth {
-  width: 23.076923076923077%;
+//  width: 23.076923076923077%;
+  @include span-columns(3);
 }
 
 .three-fourths {
-  width: 74.35897435897436%;
+//  width: 74.35897435897436%;
+  @include span-columns(9);
 }
 
 .one-sixth {
-  width: 14.52991452991453%;
+//  width: 14.52991452991453%;
+  @include span-columns(2);
 }
 
 .five-sixths {
-  width: 82.90598290598291%;
+//  width: 82.90598290598291%;
+  @include span-columns(10);
 }
 
+.last {
+  @include omega();
+  clear: right;
+}
 .first {
   clear: both;
   margin-left: 0;

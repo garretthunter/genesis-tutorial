@@ -12,6 +12,12 @@
 	License: GPL-2.0+
 	License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
 /* # HTML5 Reset
 ---------------------------------------------------------------------------------------------------- */
 /* ## Baseline Normalize
@@ -615,11 +621,11 @@ th:first-child {
 /* ### Content */
 .content {
   float: right;
-  width: 880px; }
+  width: 55rem; }
   .content-sidebar .content, .content-sidebar-sidebar .content, .sidebar-content-sidebar .content {
     float: left; }
   .content-sidebar-sidebar .content, .sidebar-content-sidebar .content, .sidebar-sidebar-content .content {
-    width: 660px; }
+    width: 41.25rem; }
   .full-width-content .content {
     width: 100%; }
   @media only screen and (max-width: 83.75rem) {
@@ -662,30 +668,30 @@ th:first-child {
 /* ## Column Classes
 --------------------------------------------- */
 /* Link: http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css */
-.five-sixths,
-.four-sixths,
 .one-fourth,
+.two-fourths,
+.three-fourths,
 .one-half,
 .one-sixth,
-.one-third,
-.three-fourths,
-.three-sixths,
-.two-fourths,
 .two-sixths,
+.three-sixths,
+.four-sixths,
+.five-sixths,
+.one-third,
 .two-thirds {
   float: left;
   margin-left: 2.564102564102564%; }
   @media only screen and (max-width: 53.75rem) {
-    .five-sixths,
-    .four-sixths,
     .one-fourth,
+    .two-fourths,
+    .three-fourths,
     .one-half,
     .one-sixth,
-    .one-third,
-    .three-fourths,
-    .three-sixths,
-    .two-fourths,
     .two-sixths,
+    .three-sixths,
+    .four-sixths,
+    .five-sixths,
+    .one-third,
     .two-thirds {
       margin: 0;
       width: 100%; } }
@@ -693,27 +699,70 @@ th:first-child {
 .one-half,
 .three-sixths,
 .two-fourths {
-  width: 48.717948717948715%; }
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%; }
+  .one-half:last-child,
+  .three-sixths:last-child,
+  .two-fourths:last-child {
+    margin-right: 0; }
 
 .one-third,
 .two-sixths {
-  width: 31.623931623931625%; }
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  .one-third:last-child,
+  .two-sixths:last-child {
+    margin-right: 0; }
 
 .four-sixths,
 .two-thirds {
-  width: 65.81196581196582%; }
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%; }
+  .four-sixths:last-child,
+  .two-thirds:last-child {
+    margin-right: 0; }
 
 .one-fourth {
-  width: 23.076923076923077%; }
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 23.23176%; }
+  .one-fourth:last-child {
+    margin-right: 0; }
 
 .three-fourths {
-  width: 74.35897435897436%; }
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 74.41059%; }
+  .three-fourths:last-child {
+    margin-right: 0; }
 
 .one-sixth {
-  width: 14.52991452991453%; }
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 14.70196%; }
+  .one-sixth:last-child {
+    margin-right: 0; }
 
 .five-sixths {
-  width: 82.90598290598291%; }
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 82.94039%; }
+  .five-sixths:last-child {
+    margin-right: 0; }
+
+.last {
+  margin-right: 0;
+  clear: right; }
 
 .first {
   clear: both;

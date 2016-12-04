@@ -2,7 +2,7 @@
 
 .content {
   float: right;
-  width: 880px;
+  width: $content-width;
 
   .content-sidebar &,
   .content-sidebar-sidebar &,
@@ -13,14 +13,14 @@
   .content-sidebar-sidebar &,
   .sidebar-content-sidebar &,
   .sidebar-sidebar-content & {
-    width: 660px;
+    width: $content-sidebar-sidebar;
   }
 
   .full-width-content & {
-    width: 100%;
+    width: $content-full-width;
   }
 
-  @media only screen and (max-width: $larger-screen) {
+  @media only screen and (max-width: $LARGER_SCREEN) {
     width: $larger-screen-content-width;
 
     .sidebar-content-sidebar &,
@@ -30,7 +30,7 @@
     }
   }
 
-  @media only screen and (max-width: $large-screen) {
+  @media only screen and (max-width: $LARGE_SCREEN) {
     width: $large-screen-content-width;
 
     .sidebar-content-sidebar &,
@@ -40,7 +40,7 @@
     }
   }
 
-  @media only screen and (max-width: $medium-screen) {
+  @media only screen and (max-width: $MEDIUM_SCREEN) {
     &,
     .content-sidebar-sidebar &,
     .sidebar-content-sidebar &,

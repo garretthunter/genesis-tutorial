@@ -9,7 +9,7 @@
   line-height: 1;
   width: 100%;
 
-  @media only screen and (max-width: $medium-screen) {
+  @media only screen and (max-width: $MEDIUM_SCREEN) {
     text-align: center;
     li {
       float: none;
@@ -84,7 +84,7 @@
   > .right {
     float: right;
   }
-  @media only screen and (max-width: $medium-screen) {
+  @media only screen and (max-width: $MEDIUM_SCREEN) {
     text-align: center;
 
     li {
