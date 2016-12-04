@@ -7,8 +7,7 @@ textarea {
   background-color: $textarea__BackgroundColor;
   border: 1px solid $textarea__BorderColor;
   color: $textarea__Color;
-  font-size: 18px;
-  font-size: 1.8rem;
+  font-size: rem( $textarea__FontSize );
   font-weight: 400;
   padding: 16px;
   width: 100%;
@@ -44,8 +43,7 @@ input[type="submit"],
   border: 0;
   color: $button__Color;
   cursor: pointer;
-  font-size: 16px;
-  font-size: 1.6rem;
+  font-size: rem( $button__FontSize );
   font-weight: 700;
   padding: 16px 24px;
   text-decoration: none;

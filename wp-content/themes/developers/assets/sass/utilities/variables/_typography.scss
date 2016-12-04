@@ -1,3 +1,13 @@
+// Base Font Family
+//====================
+$BASE_FONT_FAMILY: 'Source Sans Pro', sans-serif;
+$base-font-size: 20;
+
+//
+// Heading Font Family
+//====================
+$headings__FontFamily: $BASE_FONT_FAMILY;
+
 //
 // Navigation font sizes
 //=============================
@@ -66,3 +76,9 @@ $sidebar__FontSize: 16;
 // Plugins
 //===========================
 $enews__FontSize: 16;
+
+//
+// Forms
+//===================
+$textarea__FontSize: 18;
+$button__FontSize: 16;

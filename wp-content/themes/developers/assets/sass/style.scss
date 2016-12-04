@@ -15,18 +15,10 @@
 
 @import "bourbon/bourbon";
 @import "neat/neat";
+
 @import "utilities/index";
 @import "base/index";
 @import "layouts/index";
-@import "common-classes/index";
-@import "components/avatar";
-@import "components/author-box/index";
-@import "components/widgets/index";
+@import "components/index";
 @import "plugins/index";
-@import "components/accessibility/skip_links";
-@import "components/header/index";
-@import "components/navigation/index";
-@import "components/content/index";
-@import "components/comments/index";
-@import "components/sidebars/index";
-@import "components/footer/index";
+@import "views/index";
